@@ -27,7 +27,7 @@ The package timeseriesExtremes aims to compile functions for assesing the time d
 You can install the package from github using
 
 ``` r
-devtools::install_github('GBuritica/RPACKAGE/timeseriesExtremes0')
+devtools::install_github('GBuritica/RPACKAGE/timeseriesExtremes')
 ```
 
 ## Example
@@ -41,13 +41,13 @@ library(timeseriesExtremes)
 
 The package includes the rainfall data set of weather stations from nine different locations in France.
 
-```{r cars}
+```{r rainfall}
 head(rainfall)
 ```
 
 For example, the (tail) index Hill Plot of summer rainfall in Brest is ploted below.
 
-```{r pressure, echo = FALSE}
+```{r hill, echo = FALSE,fig.height = 5, fig.width = 10, fig.align = "center"}
 h <- hillestimate(rainfall$BREST[rainfall$SEASON=="SUMMER"], plot=T)
 ```
 
