@@ -31,8 +31,8 @@ library(timeseriesExtremes)
 ## basic example code
 ```
 
-The package includes the rainfall data set of weather stations from nine
-different locations in France.
+The package includes the daily rainfall amounts data set of weather
+stations from nine different locations in France.
 
 ``` r
 head(rainfall)
