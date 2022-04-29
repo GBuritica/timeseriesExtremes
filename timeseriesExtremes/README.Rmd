@@ -27,7 +27,7 @@ The package timeseriesExtremes aims to compile functions for assesing the time d
 You can install the package from github using
 
 ``` r
-devtools::install_github('GBuritica/RPACKAGE/timeseriesExtremes')
+devtools::install_github('GBuritica/timeseriesExtremes/timeseriesExtremes')
 ```
 
 ## Example
