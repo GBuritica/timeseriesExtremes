@@ -18,7 +18,7 @@ extremes.
 You can install the package from github using
 
 ``` r
-devtools::install_github('GBuritica/RPACKAGE/timeseriesExtremes0')
+devtools::install_github('GBuritica/RPACKAGE/timeseriesExtremes')
 ```
 
 ## Example
@@ -46,9 +46,7 @@ head(rainfall)
 ```
 
 For example, the (tail) index Hill Plot of summer rainfall in Brest is
-ploted below.
+ploted
+below.
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub\!
+<img src="man/figures/README-hill-1.png" width="100%" style="display: block; margin: auto;" />
