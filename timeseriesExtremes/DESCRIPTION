@@ -17,7 +17,6 @@ Imports:
    evd 
 Suggests:
    boot
-License: 
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
