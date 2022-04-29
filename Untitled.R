@@ -17,6 +17,7 @@ library(sloop)
 library('devtools')             ## for ceating package
 library('roxygen2')             ## for documenting
 library(usethis)                ## for developing
+library('pkgdown')              ## for creating website
 ##
 ##
 ## create("timeseriesExtremes") # Creates new  package using Devtools
@@ -26,6 +27,11 @@ use_data_raw()    ## Creates Data-raw directory
 #' Create preprocess.R to import/clean data.
 #' Document in Data.R
 library(timeseriesExtremes)
+#' Publish package
+#' Detail Rmarkdown
+use_pkgdown()     ## Creates website
+library(pkgdown)
+build_site()
 
 f <- factor(c("a", "b", "c"))
 
