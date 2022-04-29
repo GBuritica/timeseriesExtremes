@@ -9,8 +9,9 @@ Authors@R:
            email = "gloriaburit@gmail.com",
            comment = c(ORCID = "0000-0001-8527-1165"))
 Description: Tools for the analysis of univariate and multivariate extremes of time series.
-BugReports: <https://github.com/GBuritica/RPackage1>
-URL: <https://github.com/GBuritica/>
+BugReports: https://github.com/GBuritica/timeseriesExtremes/issues/
+URL: https://github.com/GBuritica/timeseriesExtremes/
+License: MIT + file LICENSE
 Depends: 
 Imports: 
    evd 
