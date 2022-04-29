@@ -1,2 +1,2 @@
-# RPACKAGE1
+# timeseriesExtremes package
  
