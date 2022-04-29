@@ -14,16 +14,18 @@
 ###             https://github.com/mvuorre/exampleRPackage
 #######################################################################
 library(sloop)
-library('devtools')             ## for developing
+library('devtools')             ## for ceating package
 library('roxygen2')             ## for documenting
 library(usethis)                ## for developing
 ##
 ##
-
-
-use_readme_rmd()  ## Imports usethis, creates an Rmarkdown to document package.
-use_data_raw()    ## Adding data
 ## create("timeseriesExtremes") # Creates new  package using Devtools
+## Adding Data.
+use_readme_rmd()  ## Imports usethis, creates an Rmarkdown to document package.
+use_data_raw()    ## Creates Data-raw directory
+#' Create preprocess.R to import/clean data.
+#' Document in Data.R
+library(timeseriesExtremes)
 
 f <- factor(c("a", "b", "c"))
 
