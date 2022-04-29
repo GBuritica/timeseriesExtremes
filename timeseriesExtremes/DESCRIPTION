@@ -1,0 +1,25 @@
+Package: timeseriesExtremes
+Type: Package
+Title: Time Series Analysis of Extremes 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Gloria",
+           family = "Buriticá",
+           role = c("aut", "cre"),
+           email = "gloriaburit@gmail.com",
+           comment = c(ORCID = "0000-0001-8527-1165"))
+Description: Tools for the analysis of univariate and multivariate extremes of time series.
+BugReports: 
+URL: https://github.com/GBuritica/
+Depends: 
+    R (>= 2.10)
+Imports: 
+   evd 
+Suggests:
+   boot
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
