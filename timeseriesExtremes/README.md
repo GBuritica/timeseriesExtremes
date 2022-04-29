@@ -15,10 +15,11 @@ extremes.
 
 <!-- You can install the released version of timeseriesExtremes from [CRAN](https://CRAN.R-project.org) with: -->
 
-You can install the package from github using
+You can install the package from github
+using
 
 ``` r
-devtools::install_github('GBuritica/RPACKAGE/timeseriesExtremes')
+devtools::install_github('GBuritica/timeseriesExtremes/timeseriesExtremes')
 ```
 
 ## Example
@@ -48,5 +49,9 @@ head(rainfall)
 For example, the (tail) index Hill Plot of summer rainfall in Brest is
 ploted
 below.
+
+``` r
+h <- hillestimate(rainfall$BREST[rainfall$SEASON=="SUMMER"], plot=T)
+```
 
 <img src="man/figures/README-hill-1.png" width="100%" style="display: block; margin: auto;" />
